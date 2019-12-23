@@ -39,3 +39,23 @@ int main()
 }
 
 //区别在于引用&
+
+
+//修改之后可以正常输出
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+
+{
+    string str ;
+    cin >> str ;
+    for ( auto &i : str)
+    {
+        i = 'x';
+    }
+    cout << str << endl ;
+    return 0;
+}
