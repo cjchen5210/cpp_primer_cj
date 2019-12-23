@@ -1,3 +1,4 @@
+//读取一行
 //writed by myself
 #include <iostream>
 #include <string>
