@@ -1,5 +1,6 @@
 //读取一行
 //writed by myself
+//自己的答案是错的
 #include <iostream>
 #include <string>
 
